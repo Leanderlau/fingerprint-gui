@@ -167,7 +167,8 @@ void GenericDevice::stop(){
 
     if(dev==NULL)
 	return;
-	syslog(LOG_DEBUG,"FP_DEV_STOP.");
+
+    syslog(LOG_DEBUG,"FP_DEV_STOP.");
 
     wait(1000);
     switch(mode){
