@@ -1,5 +1,6 @@
 TEMPLATE = app
 CONFIG += qt thread
+QT += widgets
 TARGET = fingerprint-identifier
 DEPENDPATH += . ../../include ../../src
 INCLUDEPATH += . ../../include ../../upek/include

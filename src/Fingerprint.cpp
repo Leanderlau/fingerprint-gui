@@ -271,10 +271,10 @@ void Fingerprint::initLabels(){
     textLabels[3]->setText("");
     textLabels[4]->setText("");
     iconLabels[0]->setPixmap(QPixmap(QString::fromUtf8(":/new/prefix1/res/fp-wait.png")));
-    iconLabels[1]->setPixmap(NULL);
-    iconLabels[2]->setPixmap(NULL);
-    iconLabels[3]->setPixmap(NULL);
-    iconLabels[4]->setPixmap(NULL);
+    iconLabels[1]->clear();
+    iconLabels[2]->clear();
+    iconLabels[3]->clear();
+    iconLabels[4]->clear();
 }
 
 void Fingerprint::setAcquireStage(int result){

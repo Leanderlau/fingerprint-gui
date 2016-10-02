@@ -23,7 +23,7 @@
     Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
  */
 
-#include <QtGui>
+#include <QtWidgets>
 #include <QObject>
 #include <QEventLoop>
 #include <QtCrypto/QtCrypto>

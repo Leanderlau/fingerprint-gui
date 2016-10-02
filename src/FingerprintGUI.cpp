@@ -26,7 +26,7 @@
 #include <string>
 #include <iostream>
 #include <fstream>
-#include <QtGui>
+#include <QtWidgets>
 
 #include "ui_FingerprintGUI.h"
 #include "MainWindowImpl.h"

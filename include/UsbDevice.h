@@ -26,7 +26,7 @@
 #ifndef _USBDEVICE_H
 #define _USBDEVICE_H
 
-#include <QtGui>
+#include <QtWidgets>
 #include <QObject>
 #include <libusb-1.0/libusb.h>
 #include <string>

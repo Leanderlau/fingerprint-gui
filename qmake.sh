@@ -1,2 +1,2 @@
 #!/bin/bash
-qmake-qt4 PREFIX=/usr
+qmake-qt5 PREFIX=/usr

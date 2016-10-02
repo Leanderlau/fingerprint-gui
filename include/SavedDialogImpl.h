@@ -27,7 +27,7 @@
 #define _SAVEDDIALOGIMPL_H
 
 #include <string>
-#include <QtGui>
+#include <QtWidgets>
 #include <qstring.h>
 #include <qwidget.h>
 #include "ui_SavedDialog.h"
@@ -56,7 +56,7 @@ private:
     QPixmap fpPix;
 
 public:
-    SavedDialogImpl(int mode, QWidget * parent = 0, struct fp_pic_data *pic = NULL, Qt::WFlags f = 0 );
+    SavedDialogImpl(int mode, QWidget * parent = 0, struct fp_pic_data *pic = NULL, Qt::WindowFlags f = 0 );
 
 signals:
     void choice(savedDialogChoice);

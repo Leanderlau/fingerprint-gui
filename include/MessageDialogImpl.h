@@ -27,7 +27,7 @@
 #define _MESSAGEDIALOGIMPL_H
 
 #include <string>
-#include <QtGui>
+#include <QtWidgets>
 #include <qstring.h>
 #include <qwidget.h>
 #include "ui_Message.h"
@@ -41,7 +41,7 @@ class MessageDialogImpl : public QDialog, public Ui::MessageDialog
 Q_OBJECT
 
 public:
-    MessageDialogImpl(QWidget* parent=0,Qt::WFlags f=0);
+    MessageDialogImpl(QWidget* parent=0,Qt::WindowFlags f=0);
 
 private slots:
     void ok();

@@ -27,7 +27,7 @@
 #include <sys/wait.h>
 #include <errno.h>
 #include <fcntl.h>
-#include <QtGui>
+#include <QtWidgets>
 #include <QApplication>
 #include <qstring.h>
 #include <polkit-qt-1/PolkitQt1/Subject>

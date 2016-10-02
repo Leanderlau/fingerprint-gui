@@ -18,12 +18,12 @@ be supported as well.
 Installation
 ============
 1. Generate the Makefile by running:
-	$ qmake-qt4 or use the shell script "qmake.sh"
+	$ qmake-qt5 or use the shell script "qmake.sh"
 
 2. Build the software by running:
 	$ make
 In order to compile the software you will need development packages for
-libfprint (version 0.1.0~pre2 and newer), libqt4, libqca2, libfakekey,
+libfprint (version 0.1.0~pre2 and newer), libqt5, libqca2, libfakekey,
 libusb-1.0-0, libpolkit-qt-1 and libpam.
 
 3. Copy all the files into their appropriate locations by running:
@@ -47,16 +47,16 @@ stack to enable fingerprint-based authentication.
 Note on files destination:
 By default, everything gets installed under /usr/local. If you want to change
 the prefix to /usr, you can generate the Makefile (step 1) by running:
-	$ qmake-qt4 PREFIX=/usr
+	$ qmake-qt5 PREFIX=/usr
 Additionally, libraries are installed into $PREFIX/$LIB, helper executables go
 into $PREFIX/$LIBEXEC, and the PAM module is installed into /$LIB/security. The
 default value for both $LIB and $LIBEXEC is "lib", which should be suitable for
 most Linux distributions. However, should you need to adjust the value of these
 two variables, you can set them in the same fashion as $PREFIX above. For
 instance, on 64-bit Fedora you would generate the Makefile with
-	$ qmake-qt4 LIB=lib64 LIBEXEC=libexec
+	$ qmake-qt5 LIB=lib64 LIBEXEC=libexec
 or with
-	$ qmake-qt4 PREFIX=/usr LIB=lib64 LIBEXEC=libexec
+	$ qmake-qt5 PREFIX=/usr LIB=lib64 LIBEXEC=libexec
 provided you want to install into /usr.
 
 License

@@ -54,8 +54,8 @@ int main(int argc,const char **argv){
     PluginDialog dialog(NULL,true);
     syslog(LOG_DEBUG,"PluginDialog created.");
     WId id=dialog.winId();      // Write window-ID to stdout
-    syslog(LOG_DEBUG,"WId: %li sent to stdout.",id);
-    fprintf(stdout, "%li\n", id);
+    syslog(LOG_DEBUG,"WId: %llu sent to stdout.",id);
+    fprintf(stdout, "%llu\n", id);
     fflush(stdout);
     dialog.showPlugin();
     return app.exec();

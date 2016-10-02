@@ -22,7 +22,7 @@
 #ifndef AUTHDIALOG_H
 #define AUTHDIALOG_H
 
-#include <QtGui>
+#include <QtWidgets>
 #include <QObject>
 #include <qstring.h>
 #include <qwidget.h>

@@ -28,7 +28,7 @@
 #include <sstream>
 #include <iostream>
 #include <fstream>
-#include <QtGui>
+#include <QtWidgets>
 #include <qstring.h>
 #include <qwidget.h>
 #include <string>

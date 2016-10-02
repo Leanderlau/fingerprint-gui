@@ -1,5 +1,6 @@
 TEMPLATE = app
 TARGET = fingerprint-rw
+QT += widgets
 DEPENDPATH += . ../../include ../../src
 INCLUDEPATH += . ../../include ../../upek/include
 

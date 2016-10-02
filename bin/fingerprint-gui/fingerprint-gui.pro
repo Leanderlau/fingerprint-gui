@@ -1,7 +1,7 @@
 TEMPLATE = app
 CONFIG += qt thread crypto
 TARGET = fingerprint-gui
-QT += xml
+QT += widgets xml
 DEPENDPATH += . ../../include ../../src
 INCLUDEPATH += . ../../include ../../upek/include
 
